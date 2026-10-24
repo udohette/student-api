@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
   res.json({
     message: "EI Technologies Student API",
     environment: process.env.APP_ENV || "local",
-    version: "1.0.0"
+    version: "1.1.0"
   });
 });
 
